@@ -102,7 +102,7 @@ for filename in os.listdir(characters_folder):
 # Print a list of characters and let the user choose one
 for i, character in enumerate(characters):
     print(f"{i+1}. {character['char_name']}")
-selected_char = int(input("Please select a character: ")) - 1
+selected_char = 1 - 1
 data = characters[selected_char]
 # Get the character name, greeting, and image
 char_name = data["char_name"]
